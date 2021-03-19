@@ -1,0 +1,13 @@
+@keyframes welcome_transition { 
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 5;
+  }
+}
+
+#store-webpage {
+  animation: welcome_transition 2s;
+}

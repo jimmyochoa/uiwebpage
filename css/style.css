@@ -1,0 +1,236 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Raleway;
+}
+
+header {
+    margin-top: 2%;
+    display: flex;
+    margin: auto;
+    width: 90%;
+    align-items: center;
+    height: 10vh;
+}
+
+nav {
+    flex: 7;
+}
+
+.nvbar-menu {
+    justify-content: space-around;
+    list-style: none;
+}
+
+.nvbar-text {
+    text-decoration: none;
+}
+.logo {
+    margin: 5px;
+}
+.logo-image img{
+    width: 25px;
+    height: 25px;
+}
+
+.logo-image, 
+.nvbar-menu, 
+.logo{
+    display: flex;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.nvbar-text {
+    margin: 5px;
+}
+
+.nvbar-text:hover {
+    opacity: 0.5;
+}
+
+.cart-shop {
+    flex: 1;
+    justify-content: flex-end;
+}
+/*Main content and section content style code*/
+
+.product_view {
+    align-items: center;
+}
+
+.introduction {
+    text-align: center;
+    margin: auto;
+}
+
+.introduction h1 {
+    padding: 15px 0px 15px 0px;
+    font-family: 'Dosis', sans-serif;
+    color: black;
+    font-size: 4vh;
+}
+
+.cover {
+    display: flex;
+    text-align: center;
+}
+
+.cover img {
+    margin: auto;
+}
+
+.product-description2{
+    margin: auto;
+}
+
+.product-description3{
+    padding: 20px 20px 20px 20px;
+}
+
+.product-description2 h2 {
+    font-size: 8vh;
+}
+
+.cover img {
+    width: 50%;
+}
+
+.cart-shop {
+    justify-content: flex-end;
+    padding-left: 5vh;
+}
+.cart-logo img {
+    /*box-sizing: content-box;*/
+    width: 25px;
+    height: 25px;
+}
+
+.iphone-form {
+    flex: 3;
+    justify-content: flex-start;
+    box-sizing: content-box;
+    background-color: rgb(32, 47, 94);
+    align-items: center;
+    margin: auto;
+}
+
+.iphone-form h1  {
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+}
+
+.ipad-form {
+    flex: 3;
+    justify-content: flex-start;
+    box-sizing: content-box;
+    background-color: rgb(10, 10, 10);
+    align-items: center;
+    margin: auto;
+}
+
+.ipad-form h1  {
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+}
+
+.about-text {
+    padding: 5vh 0vh 5vh 0vh;
+}
+
+.about-text h1{
+    color: white;
+    font-size: 6vh;
+}
+
+.product_one {
+    margin: auto;
+    text-align: center;
+}
+.product_one img {
+    width: 40%;
+}
+
+.buy-btn {
+    text-decoration: none;
+    list-style: none;
+}
+
+.more-btn2 {
+    list-style: none;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    font-size: 17px;
+    line-height: 1.17648;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    font-family: Raleway;
+    min-width: 28px;
+    padding-left: 23px;
+    padding-right: 23px;
+    padding-top: 15px;
+    padding-bottom: 22px;
+    border-radius: 18px;
+    color: white;
+    background: rgb(0,113,227);
+    background: linear-gradient(0deg, rgba(0,113,227,1) 0%, rgba(1,120,240,1) 100%);
+    font-size: 2vh;
+    margin: auto;
+}
+.more-btn2:hover {
+    opacity: 0.5;
+}
+
+/* Footer code part
+*/
+
+.footer-elements{
+    margin: 3vh
+}
+
+.social-media-links a {
+    text-decoration: none;
+    list-style: none;
+    font-size: 2v
+}
+
+.social-media-links li {
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.social-media-links {
+    list-style: none;
+    display: flex;
+    flex: 3;
+    padding: 0px 4px 0px 4px;
+    justify-content: center;
+}
+.social-media-links img {
+    height: 2vh;
+    padding-right: 1vh;
+}
+.description{
+    padding: 10px 0px 0px 4px;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+.description p{
+    font-size: 2vh;
+    margin-bottom: 1vh;
+    text-align: center;
+}
+@media only screen and (max-width: 768px) {
+    .nvbar-menu {
+        display: none;
+    }
+}
